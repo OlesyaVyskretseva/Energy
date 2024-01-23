@@ -1,0 +1,35 @@
+.slider__container {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 0 30px;
+  margin-bottom: 50px;
+}
+
+.slider__title {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.slider__img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.slick-slider {
+  display: flex;
+  gap: 5px;
+}
+
+.slick-track {
+  display: flex;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+
+  .slider__container {
+    margin-bottom: 30px;
+  }
+
+}

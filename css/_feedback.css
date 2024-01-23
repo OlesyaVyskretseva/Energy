@@ -1,0 +1,59 @@
+.feedback {
+  position: relative;
+  min-width: 100%;
+  min-height: 500px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #1a1a26), url("./../img/feedback.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.feedback__container {
+  position: absolute;
+  height: auto;
+  bottom: 50px;
+  right: 100px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px;
+}
+
+.feedback__title {
+  text-align: center;
+}
+
+.feedback__text {
+  text-align: center;
+}
+
+.feedback__form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.feedback__form_btn {
+  min-width: 240px;
+}
+
+.feedback__privacy {
+  font-size: 13px;
+  text-align: center;
+  font-weight: 100;
+}
+
+@media (max-width: 1024px) {
+  .feedback__container {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    padding: 1px;
+  }
+}

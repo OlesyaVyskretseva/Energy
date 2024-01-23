@@ -1,0 +1,26 @@
+.input {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+  padding: 15px 20px;
+  background: none;
+  border-bottom: 1.5px solid #ffc045;
+  color: #ffffff;
+  max-width: 350px;
+  transition: focus 0.2s step-end;
+  transition: hover 0.3s ease;
+}
+
+.input::placeholder {
+  color: #ffc045;
+  opacity: 0.7;
+}
+
+.input:hover::placeholder {
+  opacity: 1;
+}
+
+.input:focus {
+  box-shadow: 0px 0px 13px 0px rgba(159, 160, 161, 0.975);
+  border: 1.5px solid #ffc045;
+}
