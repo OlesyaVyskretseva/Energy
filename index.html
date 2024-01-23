@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700;900&display=swap"
+    rel="stylesheet" />
+  <title>Фитнес клуб Energy</title>
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="header__container">
+      <img tabindex="0" src="./img/logo/logo_transparent.png" alt="Energy" class="header__logo" />
+
+      <nav class="header__nav">
+        <ul class="header__nav_list">
+          <li><a href="#benefits" class="header__nav_link">О нас</a></li>
+          <li><a href="#slider" class="header__nav_link">Галерея</a></li>
+          <li><a href="#tickets" class="header__nav_link">Абонементы</a></li>
+          <li><a href="#address" class="header__nav_link">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <h1 class="header__title">
+      Фитнес клуб<br /><span class="header__title_name">Energy</span>
+    </h1>
+  </header>
+  <main>
+    <section>
+      <div class="benefits" id="benefits">
+        <div class="benefits__content">
+          <h2 class="benefits__content-title">Премиальный фитнес</h2>
+          <div class="benefits__content-text">
+            <p>
+              Energy – это тренажерный зал с особой атмосферой, которую не
+              встретить больше нигде. Мы продумали все до мелочей и сделали
+              комфортный клуб с качественным профессиональным оборудованием.
+            </p>
+          </div>
+          <button class="btn benefits__btn modal-btn">
+            Получить консультацию
+          </button>
+        </div>
+
+        <img class="benefits__img-small" src="./img/gym.jpg" alt="Energy gym" />
+        <img class="benefits__img-large" src="./img/gym1.jpg" alt="Energy gym" />
+      </div>
+
+      <div class="benefits__wrap">
+        <div class="benefits__wrap_item">
+          <span class="iconify benefits__icons" data-icon="tdesign:location-parking-place"></span>
+          <p>Собственная парковка</p>
+        </div>
+
+        <div class="benefits__wrap_item">
+          <span class="iconify benefits__icons" data-icon="mdi:dumbbell" data-flip="horizontal"></span>
+          <p>2 этажа оборудованного фитнес-пространства</p>
+        </div>
+
+        <div class="benefits__wrap_item">
+          <span class="iconify benefits__icons" data-icon="akar-icons:air"></span>
+          <p>Высокоинтенсивная система очистки воздуха</p>
+        </div>
+
+        <div class="benefits__wrap_item">
+          <span class="iconify benefits__icons" data-icon="fluent:wallet-credit-card-32-filled"></span>
+          <p>Доступная стоимость занятий</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slider" id="slider">
+      <div class="slider__container">
+        <h2 class="slider__title">Галерея</h2>
+        <div class="slider single__item">
+          <div>
+            <img class="slider__img" src="./img/picture.jpg" alt="gym" />
+          </div>
+          <div>
+            <img class="slider__img" src="./img/picture1.jpg" alt="gym" />
+          </div>
+          <div>
+            <img class="slider__img" src="./img/picture2.jpg" alt="gym" />
+          </div>
+          <div>
+            <img class="slider__img" src="./img/picture3.jpg" alt="gym" />
+          </div>
+          <div>
+            <img class="slider__img" src="./img/picture4.jpg" alt="gym" />
+          </div>
+          <div>
+            <img class="slider__img" src="./img/picture5.jpg" alt="gym" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <article class="tickets" id="tickets">
+      <h2 class="tickets__title">Абонементы</h2>
+      <div class="tickets__container">
+        <div class="card">
+          <h3 class="card__caption">Самостоятельные<br />тренировки</h3>
+          <ul class="card__list">
+            <li class="card__price">150<sup>$</sup></li>
+            <li class="card__text">Доступ в тренажерный зал</li>
+            <li class="card__text">Шкафчик в раздевалке</li>
+            <li class="card__text">Полотенце</li>
+            <li class="card__icon">
+              <span class="iconify card__icons" data-icon="healthicons:exercise-bicycle-outline"></span>
+            </li>
+            <li class="card__text">8 посещений</li>
+          </ul>
+          <button class="card__btn btn modal-btn">Узнать</button>
+        </div>
+        <div class="card">
+          <h3 class="card__caption">Зал групповых<br />программ</h3>
+          <ul class="card__list">
+            <li class="card__price">100<sup>$</sup></li>
+            <li class="card__text">Доступ в тренажерный зал</li>
+            <li class="card__text">Шкафчик в раздевалке</li>
+            <li class="card__text">Полотенце</li>
+            <li class="card__icon">
+              <span class="iconify card__icons" data-icon="healthicons:exercise-bicycle-outline"></span>
+            </li>
+            <li class="card__text">8 посещений</li>
+          </ul>
+          <button class="card__btn btn modal-btn">Узнать</button>
+        </div>
+        <div class="card">
+          <h3 class="card__caption">Персональный тренинг</h3>
+          <ul class="card__list">
+            <li class="card__price">210<sup>$</sup></li>
+            <li class="card__text">Доступ в тренажерный зал</li>
+            <li class="card__text">Шкафчик в раздевалке</li>
+            <li class="card__text">Полотенце</li>
+            <li class="card__icon">
+              <span class="iconify card__icons" data-icon="healthicons:exercise-bicycle-outline"></span>
+            </li>
+            <li class="card__text">8 посещений</li>
+          </ul>
+          <button class="card__btn btn modal-btn">Узнать</button>
+        </div>
+        <div class="card">
+          <h3 class="card__caption">Танцевальная<br />фитнес-программа</h3>
+          <ul class="card__list">
+            <li class="card__price">120<sup>$</sup></li>
+            <li class="card__text">Доступ в тренажерный зал</li>
+            <li class="card__text">Шкафчик в раздевалке</li>
+            <li class="card__text">Полотенце</li>
+            <li class="card__icon">
+              <span class="iconify card__icons" data-icon="healthicons:exercise-bicycle-outline"></span>
+            </li>
+            <li class="card__text">8 посещений</li>
+          </ul>
+          <button class="card__btn btn modal-btn">Узнать</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="tickets" id="training">
+      <h2 class="tickets__title">Разовые тренировки</h2>
+      <div class="tickets__container">
+        <div class="card">
+          <h3 class="card__caption">Самостоятельные<br />тренировки</h3>
+          <ul class="card__list">
+            <li class="card__price">15<sup>$</sup></li>
+            <li class="card__text">Доступ в тренажерный зал</li>
+            <li class="card__text">Шкафчик в раздевалке</li>
+            <li class="card__text">Полотенце</li>
+            <li class="card__icon">
+              <span class="iconify card__icons" data-icon="healthicons:exercise-bicycle-outline"></span>
+            </li>
+            <li class="card__text">1 посещение</li>
+          </ul>
+          <button class="card__btn btn modal-btn">Узнать</button>
+        </div>
+        <div class="card">
+          <h3 class="card__caption">Зал групповых<br />программ</h3>
+          <ul class="card__list">
+            <li class="card__price">10<sup>$</sup></li>
+            <li class="card__text">Доступ в тренажерный зал</li>
+            <li class="card__text">Шкафчик в раздевалке</li>
+            <li class="card__text">Полотенце</li>
+            <li class="card__icon">
+              <span class="iconify card__icons" data-icon="healthicons:exercise-bicycle-outline"></span>
+            </li>
+            <li class="card__text">1 посещение</li>
+          </ul>
+          <button class="card__btn btn modal-btn">Узнать</button>
+        </div>
+        <div class="card">
+          <h3 class="card__caption">Персональный тренинг</h3>
+          <ul class="card__list">
+            <li class="card__price">21<sup>$</sup></li>
+            <li class="card__text">Доступ в тренажерный зал</li>
+            <li class="card__text">Шкафчик в раздевалке</li>
+            <li class="card__text">Полотенце</li>
+            <li class="card__icon">
+              <span class="iconify card__icons" data-icon="healthicons:exercise-bicycle-outline"></span>
+            </li>
+            <li class="card__text">1 посещение</li>
+          </ul>
+          <button class="card__btn btn modal-btn">Узнать</button>
+        </div>
+        <div class="card">
+          <h3 class="card__caption">Танцевальная<br />фитнес-программа</h3>
+          <ul class="card__list">
+            <li class="card__price">12<sup>$</sup></li>
+            <li class="card__text">Доступ в тренажерный зал</li>
+            <li class="card__text">Шкафчик в раздевалке</li>
+            <li class="card__text">Полотенце</li>
+            <li class="card__icon">
+              <span class="iconify card__icons" data-icon="healthicons:exercise-bicycle-outline"></span>
+            </li>
+            <li class="card__text">1 посещение</li>
+          </ul>
+          <button class="card__btn btn modal-btn">Узнать</button>
+        </div>
+      </div>
+    </article>
+
+    <section class="feedback" id="feedback">
+      <div class="feedback__container">
+        <h2 class="feedback__title">Остались вопросы?</h2>
+        <p class="feedback__text">
+          Оставьте Ваш номер телефона<br />
+          и мы обязательно с Вами свяжемся
+        </p>
+
+        <form id="myForm" action="#" class="feedback__form">
+          <input type="text" class="feedback__form_input input" placeholder="Ваше имя" />
+          <input type="tel" class="feedback__form_input input" placeholder="Ваш телефон" />
+          <button type="submit" class="feedback__form_btn btn">
+            Отправить
+          </button>
+        </form>
+        <p class="feedback__privacy">
+          *Мы никому не передаем ваши данные. <br />
+          И не сохраняем ваш номер в базу.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <img tabindex="0" src="./img/logo/logo_transparent.png" alt="Energy" class="footer__logo_img" />
+
+          <h6 class="footer__commercial">
+            <a
+              href="https://ru.freepik.com/free-photo/big-dumbbells-over-white_7629364.htm#query=sport&position=33&from_view=search&track=sph">Изображение
+              от Racool_studio</a>
+            на Freepik
+          </h6>
+        </div>
+        <div class="footer__nav">
+          <nav>
+            <ul class="footer__list">
+              <li><a class="footer__link" href="#benefits">О нас</a></li>
+              <li><a class="footer__link" href="#slider">Галерея</a></li>
+              <li><a class="footer__link" href="#feedback">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__nav">
+          <nav>
+            <ul class="footer__list">
+              <li>
+                <a class="footer__link" href="#training">Разовые тренировки</a>
+              </li>
+              <li><a class="footer__link" href="#tickets">Абонементы</a></li>
+              <li><a class="footer__link" href="#feedback">Связаться</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__address" id="address">
+          <ul class="footer__list">
+            <li>Школьная 10</li>
+            <li>8 (800) 123-45-67</li>
+            <li>график: 10:00 - 20:00</li>
+          </ul>
+          <ul class="footer__socials">
+            <li>
+              <a href="#!">
+                <span class="iconify footer__icons" data-icon="basil:telegram-outline"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#!"><span class="iconify footer__icons" data-icon="uil:instagram-alt"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#!"><span class="iconify footer__icons" data-icon="tabler:brand-youtube"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#!">
+                <span class="iconify footer__icons" data-icon="fa6-brands:x-twitter" data-width="16"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="my-modal">
+    <div class="modal__box">
+      <span class="modal__close_btn" id="close-my-modal-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20">
+          <path fill="currentColor" d="m4.3 2.9l12.8 12.8l-1.4 1.4L2.9 4.3z" />
+          <path fill="currentColor" d="M17.1 4.3L4.3 17.1l-1.4-1.4L15.7 2.9z" />
+        </svg>
+      </span>
+
+      <h3 class="modal__title">Закажите обратный<br />звонок</h3>
+      <p class="modal__text">Оставьте заявку и мы свяжемся с вами</p>
+
+      <form id="myForm1" class="modal__form">
+        <input type="text" class="input modal__input" placeholder="Ваше имя" />
+        <input type="tel" class="input modal__input" placeholder="Ваш телефон" />
+        <button type="submit" class="modal__submit btn">Отправить</button>
+      </form>
+      <p class="modal__privacy">
+        *Мы никому не передаем ваши данные. <br />
+        И не сохраняем ваш номер в базу.
+      </p>
+    </div>
+  </div>
+
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/modal.js"></script>
+</body>
+
+</html>
